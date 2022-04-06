@@ -10,9 +10,35 @@ function Portfolio() {
       </div>
       <div className="item">
         <div>
+          <h2 id="work-title">Fanpage</h2>
+        </div>
+        <div id="work-picture">
+          <img
+            src={require("../../assets/images/pink-floyd.jpg")}
+            style={{
+              width: "75%",
+            }}
+            alt="Pink Floyd collage"
+          />
+        </div>
+      </div>
+      <div className="item">
+        <p id="work-text">
+          This is the fanpage I created during the pre-work of Carleton
+          University's Coding Bootcamp for full-stack web developers; my first
+          website. It is published on GitHub{" "}
+          <a href="https://wardvanlaar.github.io/fanpage/">
+            https://wardvanlaar.github.io/fanpage/
+          </a>
+        </p>
+      </div>
+
+      <div className="item"></div>
+      <div className="item">
+        <div>
           <h2 id="work-title">Trail Finder</h2>
         </div>
-        <div>
+        <div id="work-picture">
           <img
             src={require("../../assets/images/run-girl.png")}
             style={{
@@ -23,11 +49,10 @@ function Portfolio() {
         </div>
       </div>
       <div className="item">
-        <div id="border"></div>
         <p id="work-text">
           I worked on a project with two team members to create an App to find
           trails anywhere in the world to run on. This was the first project of
-          the Carleton University Coding BootCamp for full-stack web developers.
+          Carleton University's Coding BootCamp for full-stack web developers.
           You can find our source code at{" "}
           <a href="https://github.com/WardVanlaar/trail-finder/">
             https://github.com/WardVanlaar/trail-finder/
@@ -40,7 +65,7 @@ function Portfolio() {
         <div>
           <h2 id="work-title">Lord of the Rinks</h2>
         </div>
-        <div>
+        <div id="work-picture">
           <img
             src={require("../../assets/images/lord-of-the-rinks.png")}
             style={{
@@ -71,7 +96,7 @@ function Portfolio() {
         <div>
           <h2 id="work-title">Programming in Stata</h2>
         </div>
-        <div>
+        <div id="work-picture">
           <img
             src={require("../../assets/images/stata-lg-react.jpg")}
             style={{

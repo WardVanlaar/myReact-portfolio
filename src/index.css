@@ -147,6 +147,10 @@ header nav ul li a:hover {
   text-align: center;
 }
 
+#picture-Ward {
+  border: solid var(--tertiary-color);
+}
+
 .me img {
   max-width: 100%;
   height: auto;
@@ -167,8 +171,8 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-#border {
-  border-left: 2px solid var(--tertiary-color);
+#work-picture {
+  border-right: solid var(--tertiary-color)
 }
 
 .work {

@@ -8,7 +8,7 @@ function About() {
         <h1 id="me-title">About me</h1>
       </div>
       <div className="item">
-        <img
+        <img id="picture-Ward"
           src={coverImage}
           style={{
             width: "95%",
