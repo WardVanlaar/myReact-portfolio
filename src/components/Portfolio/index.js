@@ -1,6 +1,5 @@
 import React from "react";
-// import { capitalizeFirstLetter } from "../../utils/helpers";
-// import coverImage from "../../assets/images/stata-lg-react.jpg";
+import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 
 function Portfolio() {
   return (
@@ -26,9 +25,13 @@ function Portfolio() {
         <p id="work-text">
           This is the fanpage I created during the pre-work of Carleton
           University's Coding Bootcamp for full-stack web developers; my first
-          website. It is published on GitHub{" "}
+          website. Check it out here{" "}
           <a href="https://wardvanlaar.github.io/fanpage/">
-            https://wardvanlaar.github.io/fanpage/
+            https://wardvanlaar.github.io/fanpage
+          </a>{" "}
+          My code is here{" "}
+          <a href="https://github.com/WardVanlaar/fanpage">
+            https://github.com/WardVanlaar/fanpage
           </a>
         </p>
       </div>
@@ -78,15 +81,72 @@ function Portfolio() {
       <div className="item">
         <p id="work-text">
           This is my second Coding Bootcamp project. Our team developed a
-          CMS-style blogg App for people skating on the Ottawa Rideau Canal to
-          share their experiences on the ice. This App is deployed on Heroku.
-          You can find it here{" "}
+          CMS-style blogg App for people skating on the Ottawa Rideau Canal --
+          the longest outdoor skating rink in the world -- to share their
+          experiences on the ice. This App is deployed on Heroku. You can find
+          it here{" "}
           <a href="https://lord-of-the-rinks.herokuapp.com/">
             https://lord-of-the-rinks.herokuapp.com/.
           </a>{" "}
           Our source code is here{" "}
           <a href="https://github.com/WardVanlaar/lord-of-the-rinks">
             https://github.com/WardVanlaar/lord-of-the-rinks
+          </a>
+        </p>
+      </div>
+
+      <div className="item"></div>
+      <div className="item">
+        <div>
+          <h2 id="work-title">README generator</h2>
+        </div>
+        <div id="work-picture">
+          <img
+            src={require("../../assets/images/README-generator.jpg")}
+            style={{
+              width: "75%",
+            }}
+            alt="screen cap of the README-file of this REAMDE-generator"
+          />
+        </div>
+      </div>
+      <div className="item">
+        <p id="work-text">
+          This is my first Node.js App. It is a professional README generator to
+          create high-quality README files for GitHub repos. If you want to find
+          out more about this App...well, read the README at{" "}
+          <a href="https://github.com/WardVanlaar/node.js-readme-generator">
+            https://github.com/WardVanlaar/node.js-readme-generator
+          </a>
+        </p>
+      </div>
+
+      <div className="item"></div>
+      <div className="item">
+        <div>
+          <h2 id="work-title">PWA Budget Tracker</h2>
+        </div>
+        <div id="work-picture">
+          <img
+            src={require("../../assets/images/PWA-budget-tracker.png")}
+            style={{
+              width: "75%",
+            }}
+            alt="screen cap of the PWA budget tracker App"
+          />
+        </div>
+      </div>
+      <div className="item">
+        <p id="work-text">
+          This App is the first Progressive Web Application (PWA) I developed.
+          It is a simple budget tracker, but the nice thing is it can be
+          downloaded and installed as a native App. It even has icons{" "}
+          <a href="https://pwa2-budget-tracker.herokuapp.com/">
+            https://pwa2-budget-tracker.herokuapp.com/
+          </a>{" "}
+          The source code is here{" "}
+          <a href="https://github.com/WardVanlaar/PWA-budget-tracker">
+            https://github.com/WardVanlaar/PWA-budget-tracker
           </a>
         </p>
       </div>

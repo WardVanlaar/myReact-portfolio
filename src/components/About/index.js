@@ -1,5 +1,6 @@
 import React from "react";
-import coverImage from "../../assets/images/Ward.jpg";
+import coverImage from "../../assets/images/Ward2.jpg";
+import { FaGithubAlt } from "react-icons/fa";
 
 function About() {
   return (
@@ -8,7 +9,8 @@ function About() {
         <h1 id="me-title">About me</h1>
       </div>
       <div className="item">
-        <img id="picture-Ward"
+        <img
+          id="picture-Ward"
           src={coverImage}
           style={{
             width: "95%",
@@ -26,8 +28,12 @@ function About() {
           walking and watching a good movie. I am married and we have our hands
           full with two crazy cats, Napoleon and Finn. If you want to find out
           more about my job, click on My resume in the navigation bar. If you
-          want to know more about my coding-endeavours (so far), check out My
-          work.
+          want to know more about my coding-endeavours (so far), check out some
+          of my projects in my Portfolio. Or check out my GitHub account{" "}
+          <a href="https://github.com/WardVanlaar">
+            <FaGithubAlt />
+          </a>{" "}
+          to see all my projects.
         </p>
       </div>
     </section>
