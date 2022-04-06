@@ -14,7 +14,7 @@ function Nav() {
               <a id="nav-cat" href="#about-me">About me</a>
             </li>
             <li>
-              <a id="nav-cat" href="#my-work">My work</a>
+              <a id="nav-cat" href="#portfolio">Portfolio</a>
             </li>
             <li>
               <a id="nav-cat" href="#contact-me">Contact me</a>

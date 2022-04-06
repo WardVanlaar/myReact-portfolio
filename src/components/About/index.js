@@ -11,7 +11,7 @@ function About() {
         <img
           src={coverImage}
           style={{
-            width: "85%",
+            width: "95%",
             borderColor: "--tertiary-color",
             borderWidth: 10,
           }}

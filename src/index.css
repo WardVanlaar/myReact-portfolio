@@ -98,8 +98,10 @@ header nav ul li a:hover {
 .container {
   padding: 25px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.68fr 1fr 1fr;
   grid-gap: 1rem;
+  border-bottom: 2px solid var(--tertiary-color);
+  margin: 10px
 }
 
 .hero {
@@ -136,20 +138,37 @@ header nav ul li a:hover {
 }
 
 #me-title {
-  text-align: center;
+  text-align: left;
 }
 
 #me-text {
   margin: 0 75px 0 0;
-  font-size: 23px;
+  font-size: 18px;
   text-align: center;
 }
-
-
 
 .me img {
   max-width: 100%;
   height: auto;
+}
+
+#all-work-title {
+  text-align: left;
+}
+
+#work-title {
+  font-size: 25px;
+  text-align: left
+}
+
+#work-text {
+  margin: 40px 75px 0 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#border {
+  border-left: 2px solid var(--tertiary-color);
 }
 
 .work {

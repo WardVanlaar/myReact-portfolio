@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
+import MyWork from "./components/Portfolio";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <MyWork></MyWork>
       </main>
     </div>
   );
