@@ -6,21 +6,21 @@ function Nav() {
     <section>
       <header>
         <h1>
-          <a href="/">Ward Vanlaar</a>
+          <a id="my-name" href="/">Ward Vanlaar</a>
         </h1>
         <nav>
-          <ul>
+          <ul id="nav-ul">
             <li>
-              <a href="#about-me">About me</a>
+              <a id="nav-cat" href="#about-me">About me</a>
             </li>
             <li>
-              <a href="#my-work">My work</a>
+              <a id="nav-cat" href="#my-work">My work</a>
             </li>
             <li>
-              <a href="#contact-me">Contact me</a>
+              <a id="nav-cat" href="#contact-me">Contact me</a>
             </li>
             <li>
-              <a href="../../assets/resume/resume-ward.pdf">My resume</a>
+              <a id="nav-cat" href="../../assets/resume/resume-ward.pdf">My resume</a>
             </li>
           </ul>
         </nav>
