@@ -95,9 +95,16 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+.container {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
 .hero {
   padding: 35px 0;
-  background-image: url("../images/hero-bg.jpg");
+  /* background-image: url("../images/hero-bg.jpg"); */
   position: relative;
 }
 
@@ -173,7 +180,7 @@ header nav ul li a:hover {
 }
 
 .stata-click {
-  background: url("../images/stata-lg.jfif") no-repeat;
+  /* background: url("../images/stata-lg.jfif") no-repeat; */
   cursor: pointer;
   border: none;
   padding: 50px;
@@ -194,7 +201,7 @@ header nav ul li a:hover {
 }
 
 .run-buddy-click {
-  background: url("../images/run-buddy-bg-small.jpg") no-repeat;
+  /* background: url("../images/run-buddy-bg-small.jpg") no-repeat; */
   cursor: pointer;
   border: none;
   padding: 50px;
@@ -215,7 +222,7 @@ header nav ul li a:hover {
 }
 
 .fanpage-click {
-  background: url("../images/pink-floyd.jpg") no-repeat;
+  /* background: url("../images/pink-floyd.jpg") no-repeat; */
   background-position: center;
   cursor: pointer;
   border: none;
@@ -237,7 +244,7 @@ header nav ul li a:hover {
 }
 
 .horiseon-click {
-  background: url("../images/refactor.png") no-repeat;
+  /* background: url("../images/refactor.png") no-repeat; */
   background-position: center;
   cursor: pointer;
   border: none;
@@ -259,7 +266,7 @@ header nav ul li a:hover {
 }
 
 .trail-finder-click {
-  background: url("../images/run-girl.png") no-repeat;
+  /* background: url("../images/run-girl.png") no-repeat; */
   background-position: center;
   cursor: pointer;
   border: none;
@@ -350,19 +357,19 @@ header nav ul li a:hover {
   }
 
   .stata-click {
-      background: url("../images/stata-lg.jfif");
+      /* background: url("../images/stata-lg.jfif"); */
   }
 
   .run-buddy-click {
-      background: url("../images/run-buddy-bg-small.jpg");
+      /* background: url("../images/run-buddy-bg-small.jpg"); */
   }
 
   .fanpage-click {
-      background: url("../images/pink-floyd.jpg");
+      /* background: url("../images/pink-floyd.jpg"); */
   }
 
   .horiseon-click {
-      background: url("../images/lord-of-the-rinks.png");
+      /* background: url("../images/lord-of-the-rinks.png"); */
   }
 
   .contact div ul {
@@ -379,7 +386,7 @@ header nav ul li a:hover {
   }
 }
 
-@media screen and (min-width: 980px) {
+/* @media screen and (min-width: 980px) {
 
   h1 {
       font-size: 35px;
@@ -508,4 +515,4 @@ header nav ul li a:hover {
       font-weight: strong;
       font-size: 20px;
   }
-}
+} */
