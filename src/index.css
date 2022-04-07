@@ -134,15 +134,6 @@ header nav ul li a:hover {
   text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
 }
 
-/* .container {
-  padding: 25px;
-  display: grid;
-  grid-template-columns: 0.68fr 1fr 1fr;
-  grid-gap: 1rem;
-  border-bottom: 2px solid var(--tertiary-color);
-  margin: 10px
-} */
-
 #input {
   width: 100%;
   height: 30px;
@@ -241,27 +232,14 @@ button[disabled] {
 }
 
 
-/* @media screen and (max-width: 376px) {
-  h1 {
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  h2 {
-    color: var(--secondary-color);
-    font-size: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-  }
-  
+@media screen and (max-width: 376px) {  
   p {
     color: var(--secondary-color);
     font-size: 10px;
   }
   
   header {
-    padding: 8px;
+    padding: 6px;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: center;
@@ -275,10 +253,10 @@ button[disabled] {
   }
   
   header h1 {
-    width: 70%;
+    width: 29%;
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2vw;
     color: var(--secondary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
@@ -302,16 +280,22 @@ button[disabled] {
   }
   
   #nav-cat {
-    padding: 2px 8px;
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 12px;
     text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
   }
   
   #nav-cat2 {
     padding: 2px 8px;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 12px;
+    text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
+  }
+
+  #nav-cat3 {
+    padding: 0px 20px 20px 150px;
+    font-weight: bold;
+    font-size: 12px;
     text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
   }
   
@@ -330,7 +314,7 @@ button[disabled] {
   .hero h1 {
     position: absolute;
     bottom: 0px;
-    right: 20px;
+    right: 2px;
     color: var(--primary-color);
     font-size: 12px;
     text-align: right;
@@ -339,6 +323,7 @@ button[disabled] {
   
   #footer {
     padding: 0px 30px 0px 30px;
+    margin: 10px;
     background-color: var(--primary-color);
     display: flex;
     justify-content:space-between;
@@ -347,26 +332,15 @@ button[disabled] {
   }
   
   #my-name {
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--secondary-color);
-    margin: 0 40px 0 40px;
-    padding: 10px;
+    margin: 0;
+    padding: 0px;
     text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
   }
-  
-  .container {
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-gap: 1rem;
-    border-bottom: 2px solid var(--tertiary-color);
-    margin: 10px
-  }
-  
-
   
   #input {
     width: 100%;
@@ -376,34 +350,50 @@ button[disabled] {
   #message {
     width: 100%;
   }
+
+  #picture-Ward {
+    margin: 10px 25px 10px 60px;
+  }
   
   #me-title {
     text-align: left;
+    padding: 3px 
   }
   
   #me-text {
     margin: 0 0 0 0;
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
+    padding: 14px;
   }
   
   #all-work-title {
     text-align: left;
+    padding: 3px;
   }
   
   #work-title {
-    font-size: 25px;
-    text-align: left
+    font-size: 20px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  #work-title2 {
+    font-size: 20px;
+    text-align: left;
+    padding: 3px 3px 30px 12px;
   }
   
   #work-text {
-    margin: 40px 75px 0 0;
-    font-size: 18px;
+    margin: 3px 5px 0 5px;
+    padding: 10px;
+    font-size: 13px;
     text-align: center;
   }
   
   #work-picture {
-    border-right: solid var(--tertiary-color)
+    margin: 10px 10px 0px 30px;
+    width: 100%;
   }
   
   button {
@@ -431,6 +421,7 @@ button[disabled] {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin: 4px;
   
   }
   
@@ -449,4 +440,4 @@ button[disabled] {
 
 @media screen and (min-width: 980px) {
 
-} */
+}

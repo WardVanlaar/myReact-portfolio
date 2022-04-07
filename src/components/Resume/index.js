@@ -33,10 +33,9 @@ function Resume() {
           </ul>
         </div>
       </Col>
-      <Col lg={3} md={12} sm={12}>
-      <h2 id="work-title">Download my cv</h2> <br></br>
-          <br></br>
-          <a id="nav-cat" href="https://tirf.ca/downloading/?dlm-dp-dl=6410">
+      <Col lg={3} md={12} sm={12} id="work-title2">
+      <h2 id="work-title">Download my cv</h2> 
+          <a id="nav-cat3" href="https://tirf.ca/downloading/?dlm-dp-dl=6410">
             <FaFileDownload size="50" />
           </a>
       </Col>
