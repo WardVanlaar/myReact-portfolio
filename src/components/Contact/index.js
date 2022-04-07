@@ -88,22 +88,22 @@ function ContactForm() {
       <div className="container2">
           
              <a href="https://github.com/WardVanlaar">
-            <FaGithubAlt size='40' />
+            <FaGithubAlt size='50' />
           </a>
           <a href="https://www.linkedin.com/in/ward-vanlaar-98b50b214/">
-            <FaLinkedinIn size='40' />
+            <FaLinkedinIn size='50' />
           </a>
           
           <a href="wgvanlaar@gmail.com">
-            <BsFillEnvelopeFill size='40'/>
+            <BsFillEnvelopeFill size='50'/>
           </a>
 
           <a href="https://wardvanlaar.slack.com/">
-            <FaSlack size='40'/>
+            <FaSlack size='50'/>
           </a>
           
           <a href="+1-613-240-4204">
-            <FaMobileAlt size='40'/>
+            <FaMobileAlt size='50'/>
           </a>
       </div>
     </section>

@@ -23,13 +23,13 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a id="nav-cat" href="#contact-me">
-                Contact
+              <a id="nav-cat" href="#resume">
+                Resume
               </a>
             </li>
             <li>
-              <a id="nav-cat" href="https://tirf.ca/downloading/?dlm-dp-dl=6410">
-                Resume
+              <a id="nav-cat" href="#contact-me">
+                Contact
               </a>
             </li>
           </ul>
