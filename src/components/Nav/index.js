@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import background from "../../assets/images/hero-bg.jpg";
 
 function Nav() {
+
+  const [showText, setShowText] = useState(false);
+  const handleMouseEnter = (e) => {
+    // e.target.style.background = "grey";
+    setShowText(true);
+  };
+  const handleMouseLeave = (e) => {
+    // e.target.style.background = "maroon";
+    setShowText(false);
+  };
+
   return (
     <section>
       <header>

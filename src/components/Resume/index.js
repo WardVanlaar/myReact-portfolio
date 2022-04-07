@@ -23,7 +23,7 @@ function Resume() {
         <div>
           <ul id="nav-ul">
             <li id="nav-cat2">C-suite Executive management</li>
-            <li id="nav-cat2">Full-stack Web Developer</li>
+            <li id="nav-cat2">Full-stack Web Developer (HTML, CSS, JS, Node, Express, MySQL, MongoDB, React, MERN)</li>
             <li id="nav-cat2">Statistical analysis</li>
             <li id="nav-cat2">Team player</li>
             <li id="nav-cat2">Trilingual (English, French, Dutch)</li>

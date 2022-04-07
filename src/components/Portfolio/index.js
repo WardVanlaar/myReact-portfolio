@@ -1,7 +1,14 @@
 import React from "react";
-import { FaGithubAlt, FaHtml5, FaNodeJs } from "react-icons/fa";
+import { FaGithubAlt, FaHtml5, FaNodeJs, FaGrinWink } from "react-icons/fa";
 import { DiCss3, DiJavascript1 } from "react-icons/di";
-import { SiHandlebarsdotjs, SiMysql, SiPwa, SiMongodb, SiInsomnia, SiLoom } from "react-icons/si";
+import {
+  SiHandlebarsdotjs,
+  SiMysql,
+  SiPwa,
+  SiMongodb,
+  SiInsomnia,
+  SiLoom,
+} from "react-icons/si";
 // import video from '../../assets/videos.video1.mp4'
 
 function Portfolio() {
@@ -80,6 +87,36 @@ function Portfolio() {
       <div className="item"></div>
       <div className="item">
         <div>
+          <h2 id="work-title">README generator</h2>
+        </div>
+        <div id="work-picture">
+          <img
+            src={require("../../assets/images/README-generator.jpg")}
+            style={{
+              width: "75%",
+            }}
+            alt="screen cap of the README-file of this REAMDE-generator"
+          />
+        </div>
+      </div>
+      <div className="item">
+        <p id="work-text">
+          This is my first Node.js App. It is a professional README generator to
+          create high-quality README files for GitHub repos. If you want to find
+          out more about this App...well, read the README at{" "}
+          <a href="https://github.com/WardVanlaar/node.js-readme-generator">
+            https://github.com/WardVanlaar/node.js-readme-generator
+          </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <FaNodeJs size="27" />
+        </p>
+      </div>
+
+      <div className="item"></div>
+      <div className="item">
+        <div>
           <h2 id="work-title">Lord of the Rinks</h2>
         </div>
         <div id="work-picture">
@@ -118,30 +155,33 @@ function Portfolio() {
       <div className="item"></div>
       <div className="item">
         <div>
-          <h2 id="work-title">README generator</h2>
+          <h2 id="work-title">NoSQL Social Network</h2>
         </div>
         <div id="work-picture">
           <img
-            src={require("../../assets/images/README-generator.jpg")}
+            src={require("../../assets/images/NoSQL.jpg")}
             style={{
               width: "75%",
             }}
-            alt="screen cap of the README-file of this REAMDE-generator"
+            alt=""
           />
         </div>
       </div>
       <div className="item">
         <p id="work-text">
-          This is my first Node.js App. It is a professional README generator to
-          create high-quality README files for GitHub repos. If you want to find
-          out more about this App...well, read the README at{" "}
-          <a href="https://github.com/WardVanlaar/node.js-readme-generator">
-            https://github.com/WardVanlaar/node.js-readme-generator
+          In this project I created the back-end for a social network using
+          MongoDB. Instead of building a front-end web application I used
+          Insomnia to test all CRUD operations. The source code is here{" "}
+          <a href="https://github.com/WardVanlaar/NoSQL-social-network">
+            https://github.com/WardVanlaar/NoSQL-social-network
           </a>
           <br></br>
           <br></br>Technologies used: <br></br>
           <br></br>
-          <FaNodeJs size="27" />
+          <DiJavascript1 size="27" />
+          <SiInsomnia size="25" />
+          <SiMongodb size="25" />
+          <SiLoom size="25" />
         </p>
       </div>
 
@@ -165,6 +205,7 @@ function Portfolio() {
           This App is the first Progressive Web Application (PWA) I developed.
           It is a simple budget tracker, but the nice thing is it can be
           downloaded and installed as a native App. It even has icons{" "}
+          <FaGrinWink />{" "}
           <a href="https://pwa2-budget-tracker.herokuapp.com/">
             https://pwa2-budget-tracker.herokuapp.com/
           </a>{" "}
@@ -179,40 +220,6 @@ function Portfolio() {
           <FaHtml5 size="25" />
           <DiCss3 size="27" />
           <DiJavascript1 size="27" />
-        </p>
-      </div>
-
-      <div className="item"></div>
-      <div className="item">
-        <div>
-          <h2 id="work-title">NoSQL Social Network</h2>
-        </div>
-        <div id="work-picture">
-          <img
-            src={require("../../assets/images/NoSQL.jpg")}
-            style={{
-              width: "75%",
-            }}
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="item">
-        <p id="work-text">
-          In this project I created the back-end for a social network using
-          MongoDB. Instead of building a front-end web application I used
-          Insomnia to test all CRUD operations.
-          The source code is here{" "}
-          <a href="https://github.com/WardVanlaar/NoSQL-social-network">
-          https://github.com/WardVanlaar/NoSQL-social-network
-          </a>
-          <br></br>
-          <br></br>Technologies used: <br></br>
-          <br></br>
-          <DiJavascript1 size="27" />
-          <SiInsomnia size="25" />
-          <SiMongodb size="25" />
-          <SiLoom size="25" />
         </p>
       </div>
 
