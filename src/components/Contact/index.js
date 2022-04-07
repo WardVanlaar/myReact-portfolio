@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { validateEmail } from "../../utils/helpers";
+import { Row, Col } from "react-bootstrap";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -64,11 +65,13 @@ function ContactForm() {
   };
 
   return (
-    <section className="container" id="contact-me">
-      <div className="item">
-        <h1>Contact me</h1>
-      </div>
-      <div className="item" id="form">
+    <section id="contact-me">
+       <Row className="row">
+       <Col lg={2} md={12} sm={12}>
+        <h1 id="contact-title">Contact me</h1>
+      </Col>
+      <Col lg={7} md={12} sm={12}>
+      <div id="form">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label className="contact-label" htmlFor="name">
@@ -116,7 +119,10 @@ function ContactForm() {
           </button>
         </form>
       </div>
-      <div className="container2">
+      </Col>
+
+      <Col lg={3} md={12} sm={12}>
+        <div id="phone">
         <a
           onMouseEnter={handleMouseEnter1}
           onMouseLeave={handleMouseLeave1}
@@ -138,7 +144,9 @@ function ContactForm() {
           </a>
         </a>
         {showText && <p className="message">+1-613-240-4204</p>}
-      </div>
+        </div>
+      </Col>
+      </Row>
     </section>
   );
 }
