@@ -43,11 +43,12 @@ function ContactForm() {
       <div className="item">
         <h1>Contact me</h1>
       </div>
-      <div className="item">
+      <div className="item" id="form">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label className="contact-label" htmlFor="name">Name:</label>
             <input
+              id="input"
               type="text"
               name="name"
               defaultValue={name}
@@ -57,6 +58,7 @@ function ContactForm() {
           <div>
             <label className="contact-label" htmlFor="email">Email address:</label>
             <input
+              id="input"
               type="email"
               name="email"
               defaultValue={email}
@@ -66,6 +68,7 @@ function ContactForm() {
           <div>
             <label className="contact-label" htmlFor="message">Message:</label>
             <textarea
+              id="message"
               name="message"
               rows="5"
               defaultValue={message}
@@ -91,7 +94,7 @@ function ContactForm() {
             <FaLinkedinIn size='40' />
           </a>
           
-          <a href="https://www.linkedin.com/in/ward-vanlaar-98b50b214/">
+          <a href="wgvanlaar@gmail.com">
             <BsFillEnvelopeFill size='40'/>
           </a>
 

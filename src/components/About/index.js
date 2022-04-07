@@ -1,6 +1,5 @@
 import React from "react";
 import coverImage from "../../assets/images/Ward2.jpg";
-import { FaGithubAlt } from "react-icons/fa";
 
 function About() {
   return (
@@ -29,10 +28,7 @@ function About() {
           full with two crazy cats, Napoleon and Finn. If you want to find out
           more about my job, click on My resume in the navigation bar. If you
           want to know more about my coding-endeavours (so far), check out some
-          of my projects in my Portfolio. Or check out my GitHub account{" "}
-          <a href="https://github.com/WardVanlaar">
-            <FaGithubAlt />
-          </a>{" "}
+          of my projects in my Portfolio. Or check out my GitHub account
           to see all my projects.
         </p>
       </div>

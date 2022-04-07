@@ -6,21 +6,31 @@ function Nav() {
     <section>
       <header>
         <h1>
-          <a id="my-name" href="/">Ward Vanlaar</a>
+          <a id="my-name" href="/">
+            Ward Vanlaar
+          </a>
         </h1>
         <nav>
           <ul id="nav-ul">
             <li>
-              <a id="nav-cat" href="#about-me">About me</a>
+              <a id="nav-cat" href="#about-me">
+                About me
+              </a>
             </li>
             <li>
-              <a id="nav-cat" href="#portfolio">Portfolio</a>
+              <a id="nav-cat" href="#portfolio">
+                Portfolio
+              </a>
             </li>
             <li>
-              <a id="nav-cat" href="#contact-me">Contact me</a>
+              <a id="nav-cat" href="#contact-me">
+                Contact
+              </a>
             </li>
             <li>
-              <a id="nav-cat" href="../../assets/resume/resume-ward.pdf">My resume</a>
+              <a id="nav-cat" href="https://tirf.ca/downloading/?dlm-dp-dl=6410">
+                Resume
+              </a>
             </li>
           </ul>
         </nav>
@@ -28,7 +38,6 @@ function Nav() {
       <div className="hero" style={{ backgroundImage: `url(${background})` }}>
         <h1>Live deeply. Travel light.</h1>
       </div>
-     
     </section>
   );
 }

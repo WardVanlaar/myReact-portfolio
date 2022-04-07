@@ -1,5 +1,8 @@
 import React from "react";
-import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
+import { FaGithubAlt, FaHtml5, FaNodeJs } from "react-icons/fa";
+import { DiCss3, DiJavascript1 } from "react-icons/di";
+import { SiHandlebarsdotjs, SiMysql, SiPwa, SiMongodb, SiInsomnia, SiLoom } from "react-icons/si";
+// import video from '../../assets/videos.video1.mp4'
 
 function Portfolio() {
   return (
@@ -33,6 +36,11 @@ function Portfolio() {
           <a href="https://github.com/WardVanlaar/fanpage">
             https://github.com/WardVanlaar/fanpage
           </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <FaHtml5 size="25" />
+          <DiCss3 size="27" />
         </p>
       </div>
 
@@ -60,6 +68,12 @@ function Portfolio() {
           <a href="https://github.com/WardVanlaar/trail-finder/">
             https://github.com/WardVanlaar/trail-finder/
           </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <FaHtml5 size="25" />
+          <DiCss3 size="27" />
+          <DiJavascript1 size="27" />
         </p>
       </div>
 
@@ -81,10 +95,9 @@ function Portfolio() {
       <div className="item">
         <p id="work-text">
           This is my second Coding Bootcamp project. Our team developed a
-          CMS-style blogg App for people skating on the Ottawa Rideau Canal --
-          the longest outdoor skating rink in the world -- to share their
-          experiences on the ice. This App is deployed on Heroku. You can find
-          it here{" "}
+          CMS-style blogg App for people skating on the Ottawa Rideau Canal to
+          share their experiences on the ice. This App is deployed on Heroku{" "}
+          {""}
           <a href="https://lord-of-the-rinks.herokuapp.com/">
             https://lord-of-the-rinks.herokuapp.com/.
           </a>{" "}
@@ -92,6 +105,13 @@ function Portfolio() {
           <a href="https://github.com/WardVanlaar/lord-of-the-rinks">
             https://github.com/WardVanlaar/lord-of-the-rinks
           </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <FaNodeJs size="27" />
+          <SiHandlebarsdotjs size="25" />
+          <DiCss3 size="27" />
+          <SiMysql size="27" />
         </p>
       </div>
 
@@ -118,6 +138,10 @@ function Portfolio() {
           <a href="https://github.com/WardVanlaar/node.js-readme-generator">
             https://github.com/WardVanlaar/node.js-readme-generator
           </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <FaNodeJs size="27" />
         </p>
       </div>
 
@@ -148,6 +172,47 @@ function Portfolio() {
           <a href="https://github.com/WardVanlaar/PWA-budget-tracker">
             https://github.com/WardVanlaar/PWA-budget-tracker
           </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <SiPwa size="27" />
+          <FaHtml5 size="25" />
+          <DiCss3 size="27" />
+          <DiJavascript1 size="27" />
+        </p>
+      </div>
+
+      <div className="item"></div>
+      <div className="item">
+        <div>
+          <h2 id="work-title">NoSQL Social Network</h2>
+        </div>
+        <div id="work-picture">
+          <img
+            src={require("../../assets/images/NoSQL.jpg")}
+            style={{
+              width: "75%",
+            }}
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="item">
+        <p id="work-text">
+          In this project I created the back-end for a social network using
+          MongoDB. Instead of building a front-end web application I used
+          Insomnia to test all CRUD operations.
+          The source code is here{" "}
+          <a href="https://github.com/WardVanlaar/NoSQL-social-network">
+          https://github.com/WardVanlaar/NoSQL-social-network
+          </a>
+          <br></br>
+          <br></br>Technologies used: <br></br>
+          <br></br>
+          <DiJavascript1 size="27" />
+          <SiInsomnia size="25" />
+          <SiMongodb size="25" />
+          <SiLoom size="25" />
         </p>
       </div>
 
