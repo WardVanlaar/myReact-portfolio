@@ -1,21 +1,19 @@
-import React, { useState } from "react";
-import About from "./components/About";
-import Nav from "./components/Nav";
-import Portfolio from "./components/Portfolio";
-import ContactForm from "./components/Contact";
-import Resume from "./components/Resume";
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer'; 
+import './index.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
   return (
+    <>
     <div>
-      <Nav></Nav>
-      <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <ContactForm></ContactForm>
-      </main>
+      <Header></Header>
     </div>
+    <div>
+      <Footer></Footer>
+    </div>
+    </>
   );
 }
 

@@ -35,9 +35,9 @@ p {
   font-size: 14px;
 }
 
-article {
+/* article {
   padding-bottom: 10px;
-}
+} */
 
 header {
   padding: 20px;
@@ -51,6 +51,15 @@ header {
   background-position: 80%;
   background-attachment: fixed;
   z-index: 9999;
+}
+
+#footer {
+  padding: 20px 500px 20px 500px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 #my-name {
@@ -170,7 +179,6 @@ button[disabled] {
 
 .hero {
   padding: 35px 0;
-  /* background-image: url("../images/hero-bg.jpg"); */
   position: relative;
 }
 
@@ -182,23 +190,6 @@ button[disabled] {
   font-size: 20px;
   text-align: right;
   padding: 5px;
-}
-
-.me {
-  width: 95%;
-  justify-content: center;
-  margin: 10px auto;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--tertiary-color);
-}
-
-.me div {
-  width: 100%;
-  justify-content: center;
 }
 
 #me-title {
@@ -213,11 +204,6 @@ button[disabled] {
 
 #picture-Ward {
   border: solid var(--tertiary-color);
-}
-
-.me img {
-  max-width: 100%;
-  height: auto;
 }
 
 #all-work-title {
@@ -237,175 +223,6 @@ button[disabled] {
 
 #work-picture {
   border-right: solid var(--tertiary-color)
-}
-
-.work {
-  width: 100%;
-  justify-content: center;
-  margin: 10px auto;
-  padding: 10px;
-  width: 95%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--tertiary-color);
-}
-
-.work div {
-  width: 100%;
-  justify-content: center;
-}
-
-.work h1, h2, a {
-  text-align: center;
-}
-
-.work p {
-  padding: 10px;
-}
-
-.stata, .run-buddy, .fanpage, .horiseon, .trail-finder {
-  border-bottom: 1px solid var(--tertiary-color);
-  padding-bottom: 5px;
-}
-
-.contact {
-  padding-bottom: 5px;
-}
-
-.stata-click {
-  /* background: url("../images/stata-lg.jfif") no-repeat; */
-  cursor: pointer;
-  border: none;
-  padding: 50px;
-  position: relative;
-  opacity: 0.7;
-}
-.stata-click h3 {
-  font-size: 15px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding: 10px;
-  background-color: var(--tertiary-color);
-}
-
-.stata-click:hover {
-  opacity: 1;
-}
-
-.run-buddy-click {
-  /* background: url("../images/run-buddy-bg-small.jpg") no-repeat; */
-  cursor: pointer;
-  border: none;
-  padding: 50px;
-  position: relative;
-  opacity: 0.7;
-}
-.run-buddy-click h3 {
-  font-size: 15px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding: 10px;
-  background-color: var(--tertiary-color);
-}
-
-.run-buddy-click:hover {
-  opacity: 1;
-}
-
-.fanpage-click {
-  /* background: url("../images/pink-floyd.jpg") no-repeat; */
-  background-position: center;
-  cursor: pointer;
-  border: none;
-  padding: 50px;
-  position: relative;
-  opacity: 0.7;
-}
-.fanpage-click h3 {
-  font-size: 15px;
-  position: absolute;
-  top: 0px;
-  left: 23px;
-  padding: 10px;
-  background-color: var(--tertiary-color);
-}
-
-.fanpage-click:hover {
-  opacity: 1;
-}
-
-.horiseon-click {
-  /* background: url("../images/refactor.png") no-repeat; */
-  background-position: center;
-  cursor: pointer;
-  border: none;
-  padding: 90px;
-  position: relative;
-  opacity: 0.7;
-}
-.horiseon-click h3 {
-  font-size: 15px;
-  position: absolute;
-  top: 0px;
-  left: 23px;
-  padding: 10px;
-  background-color: var(--tertiary-color);
-}
-
-.horiseon-click:hover {
-  opacity: 1;
-}
-
-.trail-finder-click {
-  /* background: url("../images/run-girl.png") no-repeat; */
-  background-position: center;
-  cursor: pointer;
-  border: none;
-  padding: 90px;
-  position: relative;
-  opacity: 0.7;
-}
-.trail-finder-click h3 {
-  font-size: 15px;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  padding: 10px;
-  background-color: var(--tertiary-color);
-}
-
-.trail-finder-click:hover {
-  opacity: 1;
-}
-
-.contact {
-  width: 100%;
-  justify-content: center;
-  margin: 5px auto;
-  padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.contact div {
-  width: 100%;
-  justify-content: center;
-}
-
-.contact h1 {
-  text-align: center;
-}
-
-.contact div ul li {
-  color: var(--secondary-color);
-  font-weight: strong;
-  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
@@ -451,22 +268,6 @@ button[disabled] {
       font-size: 4.2vw;
   }
 
-  .stata-click {
-      /* background: url("../images/stata-lg.jfif"); */
-  }
-
-  .run-buddy-click {
-      /* background: url("../images/run-buddy-bg-small.jpg"); */
-  }
-
-  .fanpage-click {
-      /* background: url("../images/pink-floyd.jpg"); */
-  }
-
-  .horiseon-click {
-      /* background: url("../images/lord-of-the-rinks.png"); */
-  }
-
   .contact div ul {
       display: flex;
       flex-wrap: wrap;
@@ -481,7 +282,7 @@ button[disabled] {
   }
 }
 
-/* @media screen and (min-width: 980px) {
+@media screen and (min-width: 980px) {
 
   h1 {
       font-size: 35px;
@@ -610,4 +411,4 @@ button[disabled] {
       font-weight: strong;
       font-size: 20px;
   }
-} */
+}

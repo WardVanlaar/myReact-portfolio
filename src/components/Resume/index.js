@@ -32,13 +32,12 @@ function Resume() {
         </div>
       </div>
       <div className="item">
-        <p id="work-text">
-          Download my CV <br></br>
+      <h2 id="work-title">Download my cv</h2> <br></br>
           <br></br>
           <a id="nav-cat" href="https://tirf.ca/downloading/?dlm-dp-dl=6410">
             <FaFileDownload size="50" />
           </a>
-        </p>
+        
       </div>
     </section>
   );

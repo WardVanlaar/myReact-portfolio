@@ -117,18 +117,6 @@ function ContactForm() {
         </form>
       </div>
       <div className="container2">
-        <a href="https://github.com/WardVanlaar">
-          <FaGithubAlt size="50" />
-        </a>
-
-        <a href="https://www.linkedin.com/in/ward-vanlaar-98b50b214/">
-          <FaLinkedinIn size="50" />
-        </a>
-
-        <a href="https://wardvanlaar.slack.com/">
-          <FaSlack size="50" />
-        </a>
-
         <a
           onMouseEnter={handleMouseEnter1}
           onMouseLeave={handleMouseLeave1}
@@ -139,7 +127,7 @@ function ContactForm() {
           </a>
         </a>
         {showText1 && <p className="message">wgvanlaar@gmail.com</p>}
-        
+
         <a
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
@@ -150,7 +138,6 @@ function ContactForm() {
           </a>
         </a>
         {showText && <p className="message">+1-613-240-4204</p>}
-     
       </div>
     </section>
   );
