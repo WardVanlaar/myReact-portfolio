@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { FaGithubAlt, FaLinkedinIn, FaSlack, FaMobileAlt } from "react-icons/fa";
+import {
+  FaGithubAlt,
+  FaLinkedinIn,
+  FaSlack,
+  FaMobileAlt,
+} from "react-icons/fa";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { validateEmail } from "../../utils/helpers";
 
@@ -38,6 +43,26 @@ function ContactForm() {
     }
   };
 
+  const [showText, setShowText] = useState(false);
+  const handleMouseEnter = (e) => {
+    // e.target.style.background = "grey";
+    setShowText(true);
+  };
+  const handleMouseLeave = (e) => {
+    // e.target.style.background = "maroon";
+    setShowText(false);
+  };
+
+  const [showText1, setShowText1] = useState(false);
+  const handleMouseEnter1 = (e) => {
+    // e.target.style.background = "grey";
+    setShowText1(true);
+  };
+  const handleMouseLeave1 = (e) => {
+    // e.target.style.background = "maroon";
+    setShowText1(false);
+  };
+
   return (
     <section className="container" id="contact-me">
       <div className="item">
@@ -46,7 +71,9 @@ function ContactForm() {
       <div className="item" id="form">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
-            <label className="contact-label" htmlFor="name">Name:</label>
+            <label className="contact-label" htmlFor="name">
+              Name:
+            </label>
             <input
               id="input"
               type="text"
@@ -56,7 +83,9 @@ function ContactForm() {
             />
           </div>
           <div>
-            <label className="contact-label" htmlFor="email">Email address:</label>
+            <label className="contact-label" htmlFor="email">
+              Email address:
+            </label>
             <input
               id="input"
               type="email"
@@ -66,7 +95,9 @@ function ContactForm() {
             />
           </div>
           <div>
-            <label className="contact-label" htmlFor="message">Message:</label>
+            <label className="contact-label" htmlFor="message">
+              Message:
+            </label>
             <textarea
               id="message"
               name="message"
@@ -86,25 +117,40 @@ function ContactForm() {
         </form>
       </div>
       <div className="container2">
-          
-             <a href="https://github.com/WardVanlaar">
-            <FaGithubAlt size='50' />
-          </a>
-          <a href="https://www.linkedin.com/in/ward-vanlaar-98b50b214/">
-            <FaLinkedinIn size='50' />
-          </a>
-          
-          <a href="wgvanlaar@gmail.com">
-            <BsFillEnvelopeFill size='50'/>
-          </a>
+        <a href="https://github.com/WardVanlaar">
+          <FaGithubAlt size="50" />
+        </a>
 
-          <a href="https://wardvanlaar.slack.com/">
-            <FaSlack size='50'/>
+        <a href="https://www.linkedin.com/in/ward-vanlaar-98b50b214/">
+          <FaLinkedinIn size="50" />
+        </a>
+
+        <a href="https://wardvanlaar.slack.com/">
+          <FaSlack size="50" />
+        </a>
+
+        <a
+          onMouseEnter={handleMouseEnter1}
+          onMouseLeave={handleMouseLeave1}
+          className="button"
+        >
+          <a href="wgvanlaar@gmail.com">
+            <BsFillEnvelopeFill size="50" />
           </a>
-          
+        </a>
+        {showText1 && <p className="message">wgvanlaar@gmail.com</p>}
+        
+        <a
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          className="button"
+        >
           <a href="+1-613-240-4204">
-            <FaMobileAlt size='50'/>
+            <FaMobileAlt size="50" />
           </a>
+        </a>
+        {showText && <p className="message">+1-613-240-4204</p>}
+     
       </div>
     </section>
   );
