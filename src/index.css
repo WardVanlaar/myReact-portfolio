@@ -35,10 +35,6 @@ p {
   font-size: 14px;
 }
 
-/* article {
-  padding-bottom: 10px;
-} */
-
 header {
   padding: 20px;
   background-color: var(--tertiary-color);
@@ -53,22 +49,13 @@ header {
   z-index: 9999;
 }
 
-#footer {
-  padding: 20px 500px 20px 500px;
-  background-color: var(--primary-color);
-  display: flex;
-  justify-content:space-between;
-  flex-wrap: wrap;
-  position: relative;
-}
-
-#my-name {
+header h1 {
   width: 100%;
   text-align: center;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 36px;
   color: var(--secondary-color);
-  margin: 0 400px 0 400px;
+  margin: 0;
   text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
 }
 
@@ -85,7 +72,6 @@ header nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   list-style: none;
 }
@@ -111,6 +97,40 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+.hero {
+  padding: 35px 0;
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-align: right;
+  padding: 5px;
+}
+
+#footer {
+  padding: 20px 500px 20px 500px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#my-name {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 55px;
+  color: var(--secondary-color);
+  margin: 0 400px 0 400px;
+  text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
+}
+
 .container {
   padding: 25px;
   display: grid;
@@ -126,6 +146,49 @@ header nav ul li a:hover {
   grid-template-columns: 0.68fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 10px
+}
+
+
+#input {
+  width: 100%;
+  height: 30px;
+}
+
+#message {
+  width: 100%;
+}
+
+#me-title {
+  text-align: left;
+}
+
+#me-text {
+  margin: 0 75px 0 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#picture-Ward {
+  border: solid var(--tertiary-color);
+}
+
+#all-work-title {
+  text-align: left;
+}
+
+#work-title {
+  font-size: 25px;
+  text-align: left
+}
+
+#work-text {
+  margin: 40px 75px 0 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#work-picture {
+  border-right: solid var(--tertiary-color)
 }
 
 button {
@@ -168,62 +231,6 @@ button[disabled] {
   color: var(--secondary-color);
 }
 
-#input {
-  width: 100%;
-  height: 30px;
-}
-
-#message {
-  width: 100%;
-}
-
-.hero {
-  padding: 35px 0;
-  position: relative;
-}
-
-.hero h1 {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  color: var(--primary-color);
-  font-size: 20px;
-  text-align: right;
-  padding: 5px;
-}
-
-#me-title {
-  text-align: left;
-}
-
-#me-text {
-  margin: 0 75px 0 0;
-  font-size: 18px;
-  text-align: center;
-}
-
-#picture-Ward {
-  border: solid var(--tertiary-color);
-}
-
-#all-work-title {
-  text-align: left;
-}
-
-#work-title {
-  font-size: 25px;
-  text-align: left
-}
-
-#work-text {
-  margin: 40px 75px 0 0;
-  font-size: 18px;
-  text-align: center;
-}
-
-#work-picture {
-  border-right: solid var(--tertiary-color)
-}
 
 @media screen and (min-width: 768px) {
   header h1 {
