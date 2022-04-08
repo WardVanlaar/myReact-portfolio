@@ -22,7 +22,11 @@ Programming languages used:
 Clone my repo, type npm install, then npm start in the terminal.
 
 ## Usage
-Use it anyway you like...I hope you like what I have done. It is deployed on Heroku and looks like this:
+Use it anyway you like...I hope you like what I have done. It is deployed on Heroku here: https://wardvanlaar.github.io/react-portfolio-ward
+
+It looks like this:
+
+![image](https://user-images.githubusercontent.com/91222837/162504208-35385e14-5591-45be-a5b5-4311d9a255b6.png)
 
 ## License
 This App is covered under the following license: MIT
