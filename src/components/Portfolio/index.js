@@ -40,9 +40,9 @@ function Portfolio() {
             <a href="https://wardvanlaar.github.io/fanpage/">
               https://wardvanlaar.github.io/fanpage
             </a>{" "}
-            My code is here{" "}
+            My source code is{" "}
             <a href="https://github.com/WardVanlaar/fanpage">
-              https://github.com/WardVanlaar/fanpage
+              here
             </a>
             <br></br>
             <br></br>Technologies used: <br></br>
@@ -112,9 +112,9 @@ function Portfolio() {
           <p id="work-text">
             This is my first Node.js App. It is a professional README generator
             to create high-quality README files for GitHub repos. If you want to
-            find out more about this App...well, read the README at{" "}
+            find out more about this App...well, read the {" "}
             <a href="https://github.com/WardVanlaar/node.js-readme-generator">
-              https://github.com/WardVanlaar/node.js-readme-generator
+              README
             </a>
             <br></br>
             <br></br>Technologies used: <br></br>
@@ -151,9 +151,9 @@ function Portfolio() {
             <a href="https://lord-of-the-rinks.herokuapp.com/">
               https://lord-of-the-rinks.herokuapp.com/.
             </a>{" "}
-            Our source code is here{" "}
+            Our source code is{" "}
             <a href="https://github.com/WardVanlaar/lord-of-the-rinks">
-              https://github.com/WardVanlaar/lord-of-the-rinks
+              here
             </a>
             <br></br>
             <br></br>Technologies used: <br></br>
@@ -187,10 +187,10 @@ function Portfolio() {
         <Col lg={6} md={12} sm={12}>
           <p id="work-text">
             In this project I created the back-end for a social network using
-            MongoDB. Instead of building a front-end web application I used
-            Insomnia to test all CRUD operations. The source code is here{" "}
+            MongoDB. Instead of building a front-end web application, I used
+            Insomnia to test all CRUD operations. The source code is{" "}
             <a href="https://github.com/WardVanlaar/NoSQL-social-network">
-              https://github.com/WardVanlaar/NoSQL-social-network
+              here
             </a>
             <br></br>
             <br></br>Technologies used: <br></br>
@@ -226,13 +226,13 @@ function Portfolio() {
             This App is the first Progressive Web Application (PWA) I developed.
             It is a simple budget tracker, but the nice thing is it can be
             downloaded and installed as a native App. It even has icons{" "}
-            <FaGrinWink />{" "}
+            <FaGrinWink />{" "}. You can check out the App here {" "}
             <a href="https://pwa2-budget-tracker.herokuapp.com/">
               https://pwa2-budget-tracker.herokuapp.com/
             </a>{" "}
-            The source code is here{" "}
+            The source code is{" "}
             <a href="https://github.com/WardVanlaar/PWA-budget-tracker">
-              https://github.com/WardVanlaar/PWA-budget-tracker
+              here
             </a>
             <br></br>
             <br></br>Technologies used: <br></br>
@@ -270,8 +270,9 @@ function Portfolio() {
             who had changed their last name, which led to a change in their
             driver's licence number. I authored an article about this in the
             Stata journal, a scientific journal indexed in online scientific
-            catalogues. Click anywhere on the Stata image above to take you to
-            my published paper. You can also download the software at{" "}
+            catalogues. You can download the paper <a href="https://journals.sagepub.com/doi/pdf/10.1177/1536867X0800800406">
+              here
+            </a> and the software at{" "}
             <a href="https://ideas.repec.org/s/boc/bocode.html">
               https://ideas.repec.org/s/boc/bocode.html
             </a>

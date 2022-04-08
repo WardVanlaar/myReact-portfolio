@@ -23,11 +23,11 @@ function Resume() {
           <h2 id="work-title">My skills</h2>
         </div>
         <div>
-          <ul id="nav-ul">
+          <ul>
             <li id="nav-cat2">C-suite executive management</li>
             <li id="nav-cat2">Full-stack web developer (HTML, CSS, JS, Node, Express, MySQL, MongoDB, React, MERN)</li>
-            <li id="nav-cat2">Statistical analysis /</li>
-            <li id="nav-cat2">Team player /</li>
+            <li id="nav-cat2">Statistical analysis</li>
+            <li id="nav-cat2">Team player</li>
             <li id="nav-cat2">Trilingual (English, French, Dutch)</li>
             <li id="nav-cat2">Road safety expert</li>
           </ul>

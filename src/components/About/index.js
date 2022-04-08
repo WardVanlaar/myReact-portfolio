@@ -28,9 +28,9 @@ function About() {
             Canadian (yay). I now have dual citizenship. I love food, running,
             biking, walking and watching a good movie. I am married and we have
             our hands full with two crazy cats, Napoleon and Finn. If you want
-            to find out more about my job, click on My resume in the navigation
+            to find out more about my job, click on resume in the navigation
             bar. If you want to know more about my coding-endeavours (so far),
-            check out some of my projects in my Portfolio. Or check out my
+            check out some of my projects in my portfolio. Or check out my
             GitHub account to see all my projects.
           </p>
         </Col>
