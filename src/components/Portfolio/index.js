@@ -47,8 +47,8 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <FaHtml5 size="25" />
-            <DiCss3 size="27" />
+            <FaHtml5 size="40" />
+            <DiCss3 size="44" />
           </p>
         </Col>
       </Row>
@@ -83,9 +83,9 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <FaHtml5 size="25" />
-            <DiCss3 size="27" />
-            <DiJavascript1 size="27" />
+            <FaHtml5 size="40" />
+            <DiCss3 size="44" />
+            <DiJavascript1 size="45" />
           </p>
         </Col>
       </Row>
@@ -119,7 +119,7 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <FaNodeJs size="27" />
+            <FaNodeJs size="44" />
           </p>
         </Col>
       </Row>
@@ -158,10 +158,10 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <FaNodeJs size="27" />
-            <SiHandlebarsdotjs size="25" />
-            <DiCss3 size="27" />
-            <SiMysql size="27" />
+            <FaNodeJs size="42" />
+            <SiHandlebarsdotjs size="40" />
+            <DiCss3 size="40" />
+            <SiMysql size="44" />
           </p>
         </Col>
       </Row>
@@ -195,10 +195,10 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <DiJavascript1 size="27" />
-            <SiInsomnia size="25" />
-            <SiMongodb size="25" />
-            <SiLoom size="25" />
+            <DiJavascript1 size="44" />
+            <SiInsomnia size="38" />
+            <SiMongodb size="42" />
+            <SiLoom size="38" />
           </p>
         </Col>
       </Row>
@@ -237,10 +237,10 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <SiPwa size="27" />
-            <FaHtml5 size="25" />
-            <DiCss3 size="27" />
-            <DiJavascript1 size="27" />
+            <SiPwa size="40" />
+            <FaHtml5 size="40" />
+            <DiCss3 size="44" />
+            <DiJavascript1 size="40" />
           </p>
         </Col>
       </Row>

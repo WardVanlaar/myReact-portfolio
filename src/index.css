@@ -90,7 +90,7 @@ header nav {
   /* font-weight: bold; */
   font-size: 1.5vw;
   color: var(--secondary-color);
-  text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
+  /* text-shadow: 0 0 10px rgba(63, 112, 141, 0.5); */
 }
 
 header nav ul li a:hover {
@@ -235,6 +235,10 @@ button[disabled] {
   color: var(--secondary-color);
 }
 
+#message2 {
+  font-size: 25px
+}
+
 
 @media screen and (max-width: 415px) {  
 
@@ -281,7 +285,7 @@ button[disabled] {
   
   #me-title {
     text-align: left;
-    padding: 3px 
+    padding: 5px 
   }
   
   #me-text {
@@ -293,13 +297,13 @@ button[disabled] {
   
   #all-work-title {
     text-align: left;
-    padding: 3px;
+    padding: 5px;
   }
   
   #work-title {
     font-size: 20px;
     text-align: left;
-    padding: 3px;
+    padding: 5px;
   }
 
   #work-title2 {
@@ -336,6 +340,10 @@ button[disabled] {
   
   #message {
     font-size: 15px;
+  }
+
+  #message2 {
+    font-size: 20px;
   }
 }
 
@@ -453,5 +461,9 @@ button[disabled] {
     width: 100%;
     font-size: 25px;
     padding-left: 5px;
+  }
+
+  #message2 {
+    font-size: 22px;
   }
 }

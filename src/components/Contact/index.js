@@ -135,7 +135,7 @@ function ContactForm() {
             <BsFillEnvelopeFill size="50" />
           </a>
         </a>
-        {showText1 && <p className="message">wgvanlaar@gmail.com</p>}
+        {showText1 && <p id="message2">wgvanlaar@gmail.com</p>}
 
         <a
           onMouseEnter={handleMouseEnter}
@@ -146,7 +146,7 @@ function ContactForm() {
             <FaMobileAlt size="50" />
           </a>
         </a>
-        {showText && <p className="message">+1-613-240-4204</p>}
+        {showText && <p id="message2">+1-613-240-4204</p>}
         </div>
       </Col>
       </Row>
