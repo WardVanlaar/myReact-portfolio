@@ -1,7 +1,7 @@
 {
   "main.css": "/react-portfolio-ward/static/css/main.755cf1aa.chunk.css",
-  "main.js": "/react-portfolio-ward/static/js/main.892b46a1.chunk.js",
-  "main.js.map": "/react-portfolio-ward/static/js/main.892b46a1.chunk.js.map",
+  "main.js": "/react-portfolio-ward/static/js/main.3ca719d3.chunk.js",
+  "main.js.map": "/react-portfolio-ward/static/js/main.3ca719d3.chunk.js.map",
   "static/js/1.2c80ac1f.chunk.js": "/react-portfolio-ward/static/js/1.2c80ac1f.chunk.js",
   "static/js/1.2c80ac1f.chunk.js.map": "/react-portfolio-ward/static/js/1.2c80ac1f.chunk.js.map",
   "static/css/2.d3586f91.chunk.css": "/react-portfolio-ward/static/css/2.d3586f91.chunk.css",
@@ -17,9 +17,9 @@
   "static/media/lord-of-the-rinks.png": "/react-portfolio-ward/static/media/lord-of-the-rinks.366f91a8.png",
   "static/media/NoSQL.jpg": "/react-portfolio-ward/static/media/NoSQL.ed1cd113.jpg",
   "static/media/PWA-budget-tracker.png": "/react-portfolio-ward/static/media/PWA-budget-tracker.a3ed716a.png",
-  "static/css/2.d3586f91.chunk.css.map": "/react-portfolio-ward/static/css/2.d3586f91.chunk.css.map",
   "static/css/main.755cf1aa.chunk.css.map": "/react-portfolio-ward/static/css/main.755cf1aa.chunk.css.map",
+  "static/css/2.d3586f91.chunk.css.map": "/react-portfolio-ward/static/css/2.d3586f91.chunk.css.map",
   "index.html": "/react-portfolio-ward/index.html",
-  "precache-manifest.e4281f76dff1fbea036d3a3d439251a2.js": "/react-portfolio-ward/precache-manifest.e4281f76dff1fbea036d3a3d439251a2.js",
+  "precache-manifest.fd5dfb5a59a9729a689350a620b939ef.js": "/react-portfolio-ward/precache-manifest.fd5dfb5a59a9729a689350a620b939ef.js",
   "service-worker.js": "/react-portfolio-ward/service-worker.js"
 }

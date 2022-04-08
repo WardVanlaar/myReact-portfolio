@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "892b46a1fbe5cbe2773a",
+    "revision": "3ca719d3b94f9c694bf7",
     "url": "/react-portfolio-ward/static/css/main.755cf1aa.chunk.css"
   },
   {
-    "revision": "892b46a1fbe5cbe2773a",
-    "url": "/react-portfolio-ward/static/js/main.892b46a1.chunk.js"
+    "revision": "3ca719d3b94f9c694bf7",
+    "url": "/react-portfolio-ward/static/js/main.3ca719d3.chunk.js"
   },
   {
     "revision": "2c80ac1fe2aa0d16567f",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio-ward/static/media/PWA-budget-tracker.a3ed716a.png"
   },
   {
-    "revision": "3d9097fb4ff3e41c60d54bf1001143d9",
+    "revision": "8d582e4e8455494a978060721f1fcdfb",
     "url": "/react-portfolio-ward/index.html"
   }
 ];
