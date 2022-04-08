@@ -26,7 +26,7 @@ Use it anyway you like...I hope you like what I have done. It is deployed on Her
 
 It looks like this:
 
-![image](https://user-images.githubusercontent.com/91222837/162504208-35385e14-5591-45be-a5b5-4311d9a255b6.png)
+![image](https://user-images.githubusercontent.com/91222837/162505707-f7066348-7011-486b-92d8-9aa94c724787.png)
 
 ## License
 This App is covered under the following license: MIT
