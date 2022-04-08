@@ -131,7 +131,7 @@ function ContactForm() {
           onMouseLeave={handleMouseLeave1}
           className="button"
         >
-          <a href="wgvanlaar@gmail.com">
+          <a href="#contact">
             <BsFillEnvelopeFill size="50" />
           </a>
         </a>
@@ -142,7 +142,7 @@ function ContactForm() {
           onMouseLeave={handleMouseLeave}
           className="button"
         >
-          <a href="+1-613-240-4204">
+          <a href="#contact">
             <FaMobileAlt size="50" />
           </a>
         </a>
