@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/photo-port/precache-manifest.8b3658a510734669c0f7abdf5156e36d.js"
+  "/react-portfolio-ward/precache-manifest.e4281f76dff1fbea036d3a3d439251a2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/photo-port/index.html", {
+workbox.routing.registerNavigationRoute("/react-portfolio-ward/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
