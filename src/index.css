@@ -101,7 +101,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-  padding: 55px 0;
+  padding: 65px 0;
   position: relative;
 }
 
@@ -136,11 +136,15 @@ header nav ul li a:hover {
 
 #input {
   width: 100%;
-  height: 30px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 5px;
 }
 
 #message {
   width: 100%;
+  font-size: 18px;
+  padding-left: 5px;
 }
 
 #me-title {
@@ -187,8 +191,8 @@ header nav ul li a:hover {
   text-align: left;
 }
 
-button {
-  font-size: 1rem;
+#button {
+  font-size: 1.3rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
@@ -221,7 +225,7 @@ button[disabled] {
 
 .contact-label {
   width: 100%;
-  padding: 10px 20px;
+  padding: 10px 5px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -232,123 +236,43 @@ button[disabled] {
 }
 
 
-@media screen and (max-width: 376px) {  
-  p {
-    color: var(--secondary-color);
-    font-size: 10px;
-  }
-  
+@media screen and (max-width: 415px) {  
+
   header {
-    padding: 6px;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    top: 0;
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    z-index: 9999;
+    padding: 0px;
   }
-  
-  header h1 {
-    width: 29%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2vw;
-    color: var(--secondary-color);
-    margin: 0;
-    text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
-  }
-  
-  header a {
-    text-decoration: none;
-    color: var(--secondary-color);
-  }
-  
-  header nav {
-    margin: 2px 0;
-  }
-  
-  #nav-ul {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-  }
-  
+
   #nav-cat {
-    font-weight: bold;
-    font-size: 12px;
-    text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
+    font-size: 18px;
+    
   }
   
   #nav-cat2 {
-    padding: 2px 8px;
-    font-weight: bold;
-    font-size: 12px;
-    text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
+    font-size: 16px;
   }
 
   #nav-cat3 {
     padding: 0px 20px 20px 150px;
-    font-weight: bold;
-    font-size: 12px;
-    text-shadow: 0 0 10px rgba(63, 112, 141, 0.5);
-  }
-  
-  header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
   }
   
   .hero {
-    padding: 35px;
+    padding: 40px;
     position: relative;
   }
   
   .hero h1 {
-    position: absolute;
-    bottom: 0px;
-    right: 2px;
-    color: var(--primary-color);
-    font-size: 12px;
-    text-align: right;
-    padding: 5px;
+    font-size: 15px;
   }
   
   #footer {
     padding: 0px 30px 0px 30px;
     margin: 10px;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    position: relative;
   }
   
   #my-name {
-    width: 50%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    color: var(--secondary-color);
+    font-size: 25px;
     margin: 0;
     padding: 0px;
-    text-shadow: 0 0 10px rgba(63, 112, 141, 0.3);
-  }
-  
-  #input {
-    width: 100%;
-    height: 30px;
-  }
-  
-  #message {
-    width: 100%;
   }
 
   #picture-Ward {
@@ -362,7 +286,7 @@ button[disabled] {
   
   #me-text {
     margin: 0 0 0 0;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     padding: 14px;
   }
@@ -387,7 +311,7 @@ button[disabled] {
   #work-text {
     margin: 3px 5px 0 5px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
   }
   
@@ -396,48 +320,138 @@ button[disabled] {
     width: 100%;
   }
   
-  button {
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 0.25rem 1rem;
-    border-radius: .5rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin: 0 1px;
-    background-color: var(--tertiary-color);
-  }
-  
-  button:hover {
-    opacity: .8;
-  }
-  
-  button[disabled] {
-    cursor: default;
-    opacity: .8;
-  }
-  
   #form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
     margin: 4px;
-  
+  }
+
+  #button {
+    font-size: 4vw;
+    padding: 0.5rem 1.7rem;
+  }
+
+  #input {
+    font-size: 15px;
   }
   
-  .contact-label {
-    width: 100%;
-    padding: 10px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 18px;
-    color: var(--secondary-color);
+  #message {
+    font-size: 15px;
   }
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 415px) and (max-width: 980px) {
+  header {
+    padding: 0px;
+  }
 
+  #nav-cat {
+    font-size: 30px;
+    
+  }
+  
+  #nav-cat2 {
+    font-size: 28px;
+  }
+
+  #nav-cat3 {
+    padding: 0px 20px 20px 150px;
+  }
+  
+  .hero {
+    padding: 60px;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 30px;
+    padding: 0 15px 0 0;
+  }
+  
+  #footer {
+    padding: 0px 30px 0px 30px;
+    margin: 10px;
+  }
+  
+  #my-name {
+    font-size: 50px;
+    margin: 0;
+    padding: 0px;
+  }
+
+  #picture-Ward {
+    margin: 10px 25px 10px 140px;
+  }
+  
+  #me-title {
+    text-align: left;
+    padding: 12px;
+    font-size: 40px; 
+  }
+  
+  #me-text {
+    margin: 0 0 0 0;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #all-work-title {
+    text-align: left;
+    padding: 12px;
+    font-size: 40px
+  }
+  
+  #work-title {
+    font-size: 27px;
+    text-align: left;
+    padding: 12px;
+  }
+
+  #work-title2 {
+    font-size: 20px;
+    text-align: left;
+    padding: 3px 3px 30px 12px;
+  }
+  
+  #work-text {
+    margin: 3px 5px 0 5px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  #work-picture {
+    margin: 10px 10px 0px 90px;
+    width: 100%;
+  }
+  
+  #form {
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+  }
+
+  .contact-label {
+    padding: 10px 10px;
+    margin: 10px 0px;
+    font-size: 28px;
+  }
+
+  #button {
+    font-size: 4vw;;
+    padding: 0.5rem 2rem;
+  }
+
+  #input {
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    padding-left: 5px;
+  }
+  
+  #message {
+    width: 100%;
+    font-size: 25px;
+    padding-left: 5px;
+  }
 }

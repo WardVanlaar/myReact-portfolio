@@ -70,7 +70,7 @@ function ContactForm() {
        <Col lg={2} md={12} sm={12}>
         <h1 id="contact-title">Contact me</h1>
       </Col>
-      <Col lg={7} md={12} sm={12}>
+      <Col lg={7} md={10} sm={12}>
       <div id="form">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
@@ -83,6 +83,7 @@ function ContactForm() {
               name="name"
               defaultValue={name}
               onBlur={handleChange}
+              placeholder="first and last name"
             />
           </div>
           <div>
@@ -95,6 +96,7 @@ function ContactForm() {
               name="email"
               defaultValue={email}
               onBlur={handleChange}
+              placeholder="email address"
             />
           </div>
           <div>
@@ -107,6 +109,7 @@ function ContactForm() {
               rows="5"
               defaultValue={message}
               onBlur={handleChange}
+              placeholder="your message"
             />
           </div>
           {errorMessage && (
@@ -114,7 +117,7 @@ function ContactForm() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button data-testid="button" type="submit">
+          <button id="button" type="submit">
             Submit
           </button>
         </form>
