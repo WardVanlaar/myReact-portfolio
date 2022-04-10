@@ -195,7 +195,7 @@ function Portfolio() {
             <br></br>
             <br></br>Technologies used: <br></br>
             <br></br>
-            <DiJavascript1 size="44" />
+            <FaNodeJs size="42" />
             <SiInsomnia size="38" />
             <SiMongodb size="42" />
             <SiLoom size="38" />
@@ -240,7 +240,7 @@ function Portfolio() {
             <SiPwa size="40" />
             <FaHtml5 size="40" />
             <DiCss3 size="44" />
-            <DiJavascript1 size="40" />
+            <FaNodeJs size="42" />
           </p>
         </Col>
       </Row>
